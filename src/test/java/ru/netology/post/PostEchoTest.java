@@ -18,7 +18,7 @@ public class PostEchoTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("\"birthday\": \"13.06.1989\""))
+                .body("data", equalTo("\"birthday\": \"13.06.1999\""))
         ;
     }
 }
